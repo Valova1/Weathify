@@ -1,3 +1,4 @@
+![logo](https://github.com/dmitrylaas/Weathify/blob/master/images/logo.png)
 # Weathify
 Простой Telegram бот написанный на Python 3.x который умеет показывать погоду указанную пользователем
 ### Что умеет бот
@@ -9,6 +10,7 @@
 ### Использованные библиотеки и репозитории
 * [PyOWM](https://github.com/csparpa/pyowm) - для работы с API OpenWeather.org
 * [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) - для работы с API Telegram (BotFather)
+* [Smashicons](https://www.flaticon.com/authors/smashicons) - иконка для бота
 ### Быстрый старт
 * В ниже представленную строчку вставляем свой ключ API, который Вы должны получить на [этом](https://openweathermap.org/) сайте
 ```python
