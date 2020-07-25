@@ -18,7 +18,7 @@
     ## Ключ API OpenWeather.org для работы PyOWM
     owm = pyowm.OWM('ваш API ключ с сайта openweathermap.org', config_dict)
 ```
-* Далее Вам надо получить API ключ у [BotFather](https:/t.me/BotFather) в Telegram и вставить его в код приведённый ниже
+* Далее Вам надо получить API ключ у [BotFather](https://t.me/BotFather) в Telegram и вставить его в код приведённый ниже
 ```python
     ## Ключ API Telegram для работы бота
     bot = telebot.TeleBot('ваш API ключ полученный от BotFather'a')
