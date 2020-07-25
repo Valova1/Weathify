@@ -5,10 +5,10 @@ import telebot
 ## Конфигурация языковых параметров для библиотеки PyOwm
 config_dict = get_default_config()
 config_dict['language'] = 'ru'
-## Ключ API OpenWeather.org для работы PyOwm
-owm = pyowm.OWM('cc53fdcad5ab0252e30bf537f00f1e9d', config_dict)
+## Ключ API OpenWeather.org для работы PyOWM
+owm = pyowm.OWM('your-api-key-openweathermap', config_dict)
 ## Ключ API Telegram для работы бота
-bot = telebot.TeleBot('1260087893:AAF6XfjqETTzCQkUBR6N7jy6muWH-xgkKqc')
+bot = telebot.TeleBot('your-api-key-telegram')
 ## Распознования команд и ответ на них
 @bot.message_handler(commands=['start', 'weather'])
 def send_welcome(message):
