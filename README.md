@@ -1,0 +1,2 @@
+# Weathify
+Weathify Telegram bot
