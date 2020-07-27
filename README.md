@@ -21,7 +21,7 @@
 * Далее Вам надо получить API ключ у [BotFather](https://t.me/BotFather) в Telegram и вставить его в код приведённый ниже
 ```python
     ## Ключ API Telegram для работы бота
-    bot = telebot.TeleBot('ваш API ключ полученный от BotFather'a')
+    bot = telebot.TeleBot('ваш API ключ полученный от BotFather')
 ```
 * Запускаем код через консоль или нажимаем на зелёный треугольник (значок play) в Visual Studio Code
 ### Скриншоты (результат)
