@@ -6,9 +6,9 @@ import telebot
 config_dict = get_default_config()
 config_dict['language'] = 'ru'
 ## Ключ API OpenWeather.org для работы PyOWM
-owm = pyowm.OWM('your-api-key-openweathermap', config_dict)
+owm = pyowm.OWM('2b94c840f10e17da24b1edf36b4a950f', config_dict)
 ## Ключ API Telegram для работы бота
-bot = telebot.TeleBot('your-api-key-telegram')
+bot = telebot.TeleBot('2050928873:AAGjWHxgCJQU5Hh1Z2KP4uAn14mr4plgRcQ')
 ## Распознования команд и ответ на них
 @bot.message_handler(commands=['start', 'weather'])
 def send_welcome(message):
